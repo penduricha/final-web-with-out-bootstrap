@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Web no bootstrap</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../js/script.js"></script>
+</head>
+<body>
+    <header class="header-style">
+        <img src="../assets/website.png" alt="website" class="style-image">
+    </header>
+    <nav class="nav-style">
+        <ul class="menu-style">
+            <a href="#" style="text-decoration: none;" class="style-link">
+                    Trang chủ
+            </a>
+    
+            <a href="#" style="text-decoration: none;" class="style-link">
+                    Đăng ký
+            </a>
+        </ul>
+    </nav>
+    <section class="section-style">
+        <h3 style="text-align: center; font-family: Arial, Helvetica, sans-serif;">LIST OF MEMBERS</h3>
+        <section class="style-view-form-table">
+            <section class="style-form-input">
+                <input type="text" class="style-input" placeholder="Enter name" id="name">
+                <input type="number" class="style-input" placeholder="Enter age" id="age">
+                <select class="style-input" style="width: 97%" id="gender">
+                    <option value="Male">Male</option>
+                    <option value="Male">Female</option>
+                </select>
+                <input type="date" class="style-input" style="width: 96%" placeholder="Enter date of birth" id="dateOfBirth">
+                <button class="style-input style-button-add" onclick="saveToTable()">Add</button>
+            </section>
+            <table class="style-table" id="table">
+                <thead>
+                    <tr>
+                        <th>STT</th>
+                        <th>Họ và tên</th>
+                        <th>Tuổi</th>
+                        <th>Giới tính</th>
+                        <th>Ngày sinh</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        
+                    </tr>
+                </tbody>
+
+            </table>
+        </section>
+    </section>
+    <!-- <footer>
+
+    </footer> -->
+</body>
+</html>
